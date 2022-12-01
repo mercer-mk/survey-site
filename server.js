@@ -37,7 +37,7 @@ app.use(bodyParser());
 app.use(bodyParser.json({ limit: "5mb" }));
 app.use(bodyParser.urlencoded({ extended: true }));
 
-var distDir = __dirname + "/dist/Curvey-Project/";
+var distDir = __dirname + "/dist/Survey-site/";
 app.use(express.static(distDir));
 
 app.use(function (req, res, next) {
@@ -59,9 +59,7 @@ app.use("/api/survey", surveyRouter);
 app.use("/api/survey_response", surveyResponseRouter);
 
 app.get("*", (request, response) => {
-  response.sendFile(
-    path.join(__dirname, "/dist/Curvey-Project/", "index.html")
-  );
+  response.sendFile(path.join(__dirname, "/dist/Survey-site/", "index.html"));
 });
 
 var server = app.listen(process.env.PORT || 8000, function () {
