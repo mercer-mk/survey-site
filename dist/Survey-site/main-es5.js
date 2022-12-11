@@ -103,7 +103,7 @@
         features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInheritDefinitionFeature"]],
         decls: 16,
         vars: 0,
-        consts: [[1, "body-wrapper"], [1, "logo_container"], ["src", "assets/Survey-1.jpg", "alt", "urvey logo", 2, "width", "30%"], [1, "center_content"], [2, "margin-bottom", "50px"], [2, "margin-bottom", "30px"], [1, "team_container"], ["src", "assets/my.jpeg", "alt", "Milan Khunt", 1, "team_img"], [1, "team_title"], [1, "team_text"]],
+        consts: [[1, "body-wrapper"], [1, "logo_container"], ["src", "assets/Survey-1.jpg", "alt", "urvey logo", 2, "width", "30%"], [1, "center_content"], [2, "margin-bottom", "50px"], [2, "margin-bottom", "30px"], [1, "team_container", "center"], ["src", "assets/my.jpeg", "alt", "Milan Khunt", 1, "team_img"], [1, "team_title"], [1, "team_text"]],
         template: function HomeComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);

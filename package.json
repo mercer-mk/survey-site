@@ -11,7 +11,7 @@
     "postinstall": "ng build --output-path dist"
   },
   "engines": {
-    "node": "^v14.18.0",
+    "node": "^v16.13.0",
     "npm": "^8.19.2"
   },
   "private": true,
