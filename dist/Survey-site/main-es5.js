@@ -2548,14 +2548,14 @@
       "tk/3");
 
       var AuthService = /*#__PURE__*/function () {
+        // Heroku url
+        //private surveysUrl = 'https://comp229-curvey-project.herokuapp.com/api/';
         function AuthService(http) {
           _classCallCheck(this, AuthService);
 
           this.http = http; // Local url
-          // private surveysUrl = 'http://localhost:3000/api/';
-          // Heroku url
 
-          this.surveysUrl = 'https://comp229-curvey-project.herokuapp.com/api/';
+          this.surveysUrl = 'http://localhost:8000/api/';
         }
 
         _createClass(AuthService, [{
@@ -2858,14 +2858,14 @@
       "tk/3");
 
       var CommonService = /*#__PURE__*/function () {
+        // Heroku url
+        //private surveysUrl = 'https://comp229-curvey-project.herokuapp.com/api/survey_response/';
         function CommonService(httpClient) {
           _classCallCheck(this, CommonService);
 
           this.httpClient = httpClient; // Local url
-          // private surveysUrl = 'http://localhost:3000/api/survey_response/';
-          // Heroku url
 
-          this.surveysUrl = 'https://comp229-curvey-project.herokuapp.com/api/survey_response/';
+          this.surveysUrl = 'http://localhost:8000/api/survey_response/';
         }
 
         _createClass(CommonService, [{
@@ -3169,14 +3169,14 @@
       "tk/3");
 
       var SurveyService = /*#__PURE__*/function () {
+        // Heroku url
+        //private surveysUrl = 'https://comp229-curvey-project.herokuapp.com/api/';
         function SurveyService(httpClient) {
           _classCallCheck(this, SurveyService);
 
           this.httpClient = httpClient; // Local url
-          // private surveysUrl = 'http://localhost:3000/api/';
-          // Heroku url
 
-          this.surveysUrl = 'https://comp229-curvey-project.herokuapp.com/api/';
+          this.surveysUrl = 'http://localhost:8000/api/';
         }
 
         _createClass(SurveyService, [{
@@ -4151,14 +4151,14 @@
       "tk/3");
 
       var UserService = /*#__PURE__*/function () {
+        // Heroku url
+        //private usersUrl = 'https://comp229-curvey-project.herokuapp.com/api/users/';
         function UserService(httpClient) {
           _classCallCheck(this, UserService);
 
           this.httpClient = httpClient; // Local url
-          // private usersUrl = 'http://localhost:3000/api/users/';
-          // Heroku url
 
-          this.usersUrl = 'https://comp229-curvey-project.herokuapp.com/api/users/';
+          this.usersUrl = 'http://localhost:8000/api/users/';
         }
 
         _createClass(UserService, [{

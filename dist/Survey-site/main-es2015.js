@@ -1184,12 +1184,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class AuthService {
+    // Heroku url
+    //private surveysUrl = 'https://comp229-curvey-project.herokuapp.com/api/';
     constructor(http) {
         this.http = http;
         // Local url
-        // private surveysUrl = 'http://localhost:3000/api/';
-        // Heroku url
-        this.surveysUrl = 'https://comp229-curvey-project.herokuapp.com/api/';
+        this.surveysUrl = 'http://localhost:8000/api/';
     }
     login(username, password) {
         return this.http.post(this.surveysUrl + 'users/signIn', { username: username, password: password })
@@ -1338,12 +1338,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class CommonService {
+    // Heroku url
+    //private surveysUrl = 'https://comp229-curvey-project.herokuapp.com/api/survey_response/';
     constructor(httpClient) {
         this.httpClient = httpClient;
         // Local url
-        // private surveysUrl = 'http://localhost:3000/api/survey_response/';
-        // Heroku url
-        this.surveysUrl = 'https://comp229-curvey-project.herokuapp.com/api/survey_response/';
+        this.surveysUrl = 'http://localhost:8000/api/survey_response/';
     }
     saveSurvey(survey) {
         return this.httpClient.post(this.surveysUrl, survey);
@@ -1474,12 +1474,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class SurveyService {
+    // Heroku url
+    //private surveysUrl = 'https://comp229-curvey-project.herokuapp.com/api/';
     constructor(httpClient) {
         this.httpClient = httpClient;
         // Local url
-        // private surveysUrl = 'http://localhost:3000/api/';
-        // Heroku url
-        this.surveysUrl = 'https://comp229-curvey-project.herokuapp.com/api/';
+        this.surveysUrl = 'http://localhost:8000/api/';
     }
     saveSurvey(survey) {
         return this.httpClient.post(this.surveysUrl + 'survey/create/', survey);
@@ -1905,12 +1905,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class UserService {
+    // Heroku url
+    //private usersUrl = 'https://comp229-curvey-project.herokuapp.com/api/users/';
     constructor(httpClient) {
         this.httpClient = httpClient;
         // Local url
-        // private usersUrl = 'http://localhost:3000/api/users/';
-        // Heroku url
-        this.usersUrl = 'https://comp229-curvey-project.herokuapp.com/api/users/';
+        this.usersUrl = 'http://localhost:8000/api/users/';
     }
     saveUser(user) {
         return this.httpClient.post(this.usersUrl, user);
